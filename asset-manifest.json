@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/trant/static/css/main.ea73781c.css",
+    "main.js": "/trant/static/js/main.75e0d9ae.js",
+    "static/js/496.1e70cfae.chunk.js": "/trant/static/js/496.1e70cfae.chunk.js",
+    "static/media/transport.png": "/trant/static/media/transport.07d5205209712262a95d.png",
+    "index.html": "/trant/index.html",
+    "main.ea73781c.css.map": "/trant/static/css/main.ea73781c.css.map",
+    "main.75e0d9ae.js.map": "/trant/static/js/main.75e0d9ae.js.map",
+    "496.1e70cfae.chunk.js.map": "/trant/static/js/496.1e70cfae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea73781c.css",
+    "static/js/main.75e0d9ae.js"
+  ]
+}
