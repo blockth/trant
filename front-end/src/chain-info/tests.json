@@ -1,0 +1,40 @@
+{
+  "contracts": {
+    "Exchange": "2e47033b41da95a3c217d8bc6c33bb15490a7366",
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "Manage": "f18b0957c250ad5933091f62b72aa92e219cfd3a",
+    "MockDAI": "3a46a27d1be391dc9824ab812830fdd9f245aca0",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "MockWETH": "21c4935a4e5b858efd5c83f628f8bb78bafdabce",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "5c27d7156fdbfe889902cc167df697405a50ad20",
+    "TokenBase": "053240700c5051b4ee6b82988e0aac60c49e21c3",
+    "TrantToken": "0e4ca643294d297171fa40a3120cfdfdfaa87f52",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.1/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.1/SafeMathChainlink": "bf84f5dba942291289c80f271862cb515ce813ab",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.1/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276"
+  },
+  "tests": {
+    "tests/unit/test_exchange.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "FF",
+      "sha1": "a062595254e8e5620a6098fd2bae3b7acf0f4790",
+      "txhash": []
+    },
+    "tests/unit/test_price_feeds.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "F",
+      "sha1": "4ee8d9f6f3c89bdf7fd65a6343e11d470ecd78a4",
+      "txhash": []
+    },
+    "tests/unit/test_token_base.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "FF",
+      "sha1": "9630562e3d071d11d7144da01020e4d656f0bb1d",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}

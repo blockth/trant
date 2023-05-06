@@ -1,0 +1,47 @@
+{
+    "dependencies": [
+        "OpenZeppelin/openzeppelin-contracts@4.2.0",
+        "smartcontractkit/chainlink-brownie-contracts@0.2.1"
+    ],
+    "compiler": {
+        "solc": {
+            "remappings": [
+                "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0",
+                "@chainlink=smartcontractkit/chainlink-brownie-contracts@0.2.1"
+            ]
+        }
+    },
+    "dotenv": ".env",
+    "networks": {
+        "development": {
+            "verify": false,
+            "weth_token": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+            "fau_token": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "oil_usd_price_feed": "0x48c9FF5bFD7D12e3C511022A6E54fB1c5b8DC3Ea",
+            "eth_usd_price_feed": "0x9326BFA02ADD2366b30bacB125260Af641031331"
+        },
+        "ganache": {
+            "verify": false,
+            "weth_token": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+            "fau_token": "0xFab46E002BbF0b4509813474841E0716E6730136",
+            "oil_usd_price_feed": "0x48c9FF5bFD7D12e3C511022A6E54fB1c5b8DC3Ea",
+            "eth_usd_price_feed": "0x9326BFA02ADD2366b30bacB125260Af641031331"
+        },
+        "rinkeby": {
+            "verify": true
+        },
+        "goerli": {
+            "verify": true,
+            "oil_usd_price_feed": "0x7b219F57a8e9C7303204Af681e9fA69d17ef626f",
+            "eth_usd_price_feed": "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e"
+        },
+        "sepolia": {
+            "verify": false,
+            "oil_usd_price_feed": "0xC5981F461d74c46eB4b0CF3f4Ec79f025573B0Ea",
+            "eth_usd_price_feed": "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+        }
+    },
+    "wallets": {
+        "from_key": "${PRIVATE_KEY}"
+    }
+}
